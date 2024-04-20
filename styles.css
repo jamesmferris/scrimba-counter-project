@@ -1,6 +1,6 @@
 body {
   font-family: "Inter", sans-serif;
-  background-image: url(./images/bus.gif);
+  background-image: url("bus.gif");
   font-weight: bold;
   background-size: contain;
   background-repeat: no-repeat;
