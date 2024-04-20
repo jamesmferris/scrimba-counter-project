@@ -1,0 +1,61 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-image: url(./images/bus.gif);
+  font-weight: bold;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  margin: 150px 0 10px 0;
+  text-shadow: 0 0 3px black;
+}
+
+h2 {
+  font-size: 50px;
+  margin: 0 0 20px 0;
+  text-shadow: 0 0 3px black;
+}
+
+button {
+  border: 3px solid white;
+  padding: 10px 0 10px 0;
+  font-weight: bold;
+  font-size: 24px;
+  width: 200px;
+  margin: 20px 0 5px 0;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+button:active {
+  transform: translateY(4px);
+  box-shadow: 0 1px 5px whitesmoke;
+}
+
+#increment-btn {
+  background: darkred;
+}
+
+#save-btn {
+  background: darkgreen;
+}
+
+#reset-btn {
+  background: darkgoldenrod;
+}
+
+p {
+  font-size: 25px;
+  text-shadow: 0 0 3px black;
+  margin-top: 300px;
+}
